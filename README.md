@@ -13,7 +13,7 @@
 3. **Training pipeline**:  
    - Dataset of MIDI files → preprocessing to convert into tensor representation.  
    - Generator & discriminator trained adversarially until generator produces plausible sequences.  
-   - After generation, MIDI output is converted to audio (via library/tool).  
+   - After generation, MIDI output is converted to audio (via midi2audio FluidSynth).  
 4. **MIDI → Audio Conversion**: Uses pretty_midi to render MIDI into WAV/MP3 for listening.  
 
 ## Tech Stack  
