@@ -1,0 +1,31 @@
+# Music Generator using GANs  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)  
+
+## 🎵 Project Overview  
+**Music Generator** is a deep‐learning project that uses Generative Adversarial Networks (GANs) to create **MIDI files**, which are then converted into audio. The goal is to explore generative modelling in the music domain, synthesize new musical sequences, and listen to them as audio.  
+
+## Features  
+- Generates new musical sequences in MIDI format via a GAN architecture.  
+- Converts those MIDI sequences into playable audio (WAV/MP3) for easy listening.  
+
+
+## Demo & Sample Output  
+
+## Architecture & Approach  
+1. **Generator**: Takes random latent vectors (and optionally style / condition vector) and outputs a sequence in MIDI format (e.g., note events, velocity, timing).  
+2. **Discriminator**: Learns to distinguish between real MIDI sequences (from dataset) and fake ones from the generator.  
+3. **Training pipeline**:  
+   - Dataset of MIDI files → preprocessing to convert into tensor representation.  
+   - Generator & discriminator trained adversarially until generator produces plausible sequences.  
+   - After generation, MIDI output is converted to audio (via library/tool).  
+4. **MIDI → Audio Conversion**: Uses pretty_midi to render MIDI into WAV/MP3 for listening.  
+
+## Tech Stack  
+- Language: Python 3.x  
+- Deep Learning Framework: tensorflow
+- MIDI Processing: pretty_midi
+- Audio Rendering: 
+- Dataset: MAESTRO
+
+
