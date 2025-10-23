@@ -7,9 +7,6 @@
 - Generates new musical sequences in MIDI format via a GAN architecture.  
 - Converts those MIDI sequences into playable audio (WAV/MP3) for easy listening.  
 
-
-## Demo & Sample Output  
-
 ## Architecture & Approach  
 1. **Generator**: Takes random latent vectors (and optionally style / condition vector) and outputs a sequence in MIDI format (e.g., note events, velocity, timing).  
 2. **Discriminator**: Learns to distinguish between real MIDI sequences (from dataset) and fake ones from the generator.  
