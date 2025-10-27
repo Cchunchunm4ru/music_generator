@@ -1,4 +1,4 @@
-# Music Generator using GANs   
+![SoExcited~GIF](https://github.com/user-attachments/assets/59254f0f-0c1c-4ec1-9fbe-19ec7ab78b18)# Music Generator using GANs   
 
 ## 🎵 Project Overview  
 **Music Generator** is a deep‐learning project that uses Generative Adversarial Networks (GANs) to create **MIDI files**, which are then converted into audio. The goal is to explore generative modelling in the music domain, synthesize new musical sequences, and listen to them as audio.  
@@ -23,4 +23,7 @@
 - Audio Rendering:midi2audio FluidSynth
 - Dataset: MAESTRO
 
+
+## ☆*: .｡. o(≧▽≦)o .｡.:*☆ OUTPUT
+[midi.mp3](https://github.com/user-attachments/files/23170606/WhatsApp.Audio.2025-07-06.at.7.39.02.PM.online-audio-converter.com.mp3)
 
